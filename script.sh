@@ -48,7 +48,7 @@ dpkg -r toolbox
 
 echo -e "\033[36m📥 Downloading toolbox script...\033[0m"
 if wget "$URL"; then
-    dpkg -i "toolbox_1.2.2.deb"
+    dpkg -i digitalvps-toolbox_1.2.2.deb
     echo -e "\033[32m✅ Installed toolbox_1.2.2 successfully at:\033[0m \033[1m$DEST\033[0m"
     echo -e "\033[36m🚀 You can now run it using:\033[0m \033[1;33mtoolbox\033[0m"
 else
